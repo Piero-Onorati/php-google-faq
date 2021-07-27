@@ -4,7 +4,64 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     width: 1400px;
     margin:0 auto;
 }
+
+button{
+    border:none
+}
+
+a{
+    text-decoration: none;
+    color:#5f6368
+}
+
+/* HEADER */
+
+header{
+    border-bottom: 1px solid grey;
+}
+
+.top-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.google_log .menu{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.google_log .accedi{
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 8px 25px;
+}
+  
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 35px;
+    font-size: 18px;
+}
+
+
