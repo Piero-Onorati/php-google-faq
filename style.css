@@ -13,8 +13,28 @@ body{
     margin:0 auto;
 }
 
+.container-main{
+    width:60%;
+    margin: 0 auto;
+}
+
 button{
     border:none
+}
+
+button:hover{
+    filter: brightness(0.94);
+}
+
+h2{
+    color:#3c4043;
+    line-height: 35px;
+    padding: 35px 0;
+}
+
+p{
+    color:#212121;
+    line-height: 30px;
 }
 
 a{
@@ -25,21 +45,32 @@ a{
 /* HEADER */
 
 header{
+    background-color: white;
+    width: 100%;
     border-bottom: 1px solid grey;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .top-navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 0;
     
 }
 
-.title{
+.top-navbar .title{
     display: flex;
     align-items: center;
+    justify-content:center
+}
 
-
+.top-navbar .title h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
 }
 
 .google_log .menu{
@@ -49,9 +80,11 @@ header{
 }
 
 .google_log .accedi{
-    background-color: #1a73e8;
     color: #fff;
+    background-color: #1a73e8;
     padding: 8px 25px;
+    border-radius:5px;
+    margin-left: 10px;
 }
   
 nav ul{
@@ -59,9 +92,23 @@ nav ul{
 }
 
 nav ul li{
+    display: inline-block;
     list-style: none;
     margin-right: 35px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
+nav ul li a{
+    display: inline-block;
+    padding-bottom: 10px;
+}
 
+/* class addes to the li/a displayed on the page */
+.active{
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+}
+
+main{
+    margin-top: 130px;
+}

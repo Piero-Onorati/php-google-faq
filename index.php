@@ -83,7 +83,7 @@ $faq=[
                     <li><a href="#">Norme sulla privacy</a></li>
                     <li><a href="#">Termini di servizio</a></li>
                     <li><a href="#">Tecnologie</a></li>
-                    <li><a href="#">Domande frequenti</a></li>
+                    <li ><a href="#" class="active">Domande frequenti</a></li>
                 </ul>
 
             </nav>
@@ -96,7 +96,7 @@ $faq=[
 
     <!-- start main -->
     <main>
-        <div class="container"> 
+        <div class="container-main"> 
 
         <?php foreach ($faq as $value) { ?>
 
